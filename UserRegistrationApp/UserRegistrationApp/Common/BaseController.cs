@@ -9,7 +9,7 @@ namespace UserRegistrationApp.Common
 {
     public class BaseController:Controller
     {
-
+        // Deneme yorumu git için
         public bool SendMail(string to,string from,string mailTemplateCode,string cc=null)
         {
             UserRegistiration_DBEntities db = new UserRegistiration_DBEntities();
