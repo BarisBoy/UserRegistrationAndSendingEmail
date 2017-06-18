@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+      <Schema Namespace="UserRegistiration_DBModel.Store" Alias="Self" Provider="System.Data.SqlClient" ProviderManifestToken="2008" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityContainer Name="UserRegistiration_DBModelStoreContainer">
+          <EntitySet Name="Mail" EntityType="UserRegistiration_DBModel.Store.Mail" store:Type="Tables" Schema="dbo" />
+        </EntityContainer>
+        <EntityType Name="Mail">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="uniqueidentifier" Nullable="false" />
+          <Property Name="From" Type="varchar" MaxLength="2000" />
+          <Property Name="To" Type="varchar" MaxLength="2000" />
+          <Property Name="Cc" Type="varchar" MaxLength="2000" />
+          <Property Name="Subject" Type="varchar" MaxLength="2000" />
+          <Property Name="Body" Type="varchar(max)" />
+          <Property Name="IsSend" Type="bit" />
+          <Property Name="SendToDate" Type="datetime" />
+          <Property Name="CreatedDate" Type="datetime" />
+          <Property Name="AutoID" Type="int" Nullable="false" StoreGeneratedPattern="Identity" />
+        </EntityType>
+      </Schema>
+    </edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="UserRegistiration_DBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityContainer Name="UserRegistiration_DBEntities" p1:LazyLoadingEnabled="true">
+          <EntitySet Name="Mail" EntityType="UserRegistiration_DBModel.Mail" />
+        </EntityContainer>
+        <EntityType Name="Mail">
+          <Key>
+            <PropertyRef Name="ID" />
+          </Key>
+          <Property Name="ID" Type="Guid" Nullable="false" />
+          <Property Name="From" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+          <Property Name="To" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+          <Property Name="Cc" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+          <Property Name="Subject" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+          <Property Name="Body" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+          <Property Name="IsSend" Type="Boolean" />
+          <Property Name="SendToDate" Type="DateTime" Precision="3" />
+          <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+          <Property Name="AutoID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+        </EntityType>
+      </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="UserRegistiration_DBModelStoreContainer" CdmEntityContainer="UserRegistiration_DBEntities">
+          <EntitySetMapping Name="Mail">
+            <EntityTypeMapping TypeName="UserRegistiration_DBModel.Mail">
+              <MappingFragment StoreEntitySet="Mail">
+                <ScalarProperty Name="ID" ColumnName="ID" />
+                <ScalarProperty Name="From" ColumnName="From" />
+                <ScalarProperty Name="To" ColumnName="To" />
+                <ScalarProperty Name="Cc" ColumnName="Cc" />
+                <ScalarProperty Name="Subject" ColumnName="Subject" />
+                <ScalarProperty Name="Body" ColumnName="Body" />
+                <ScalarProperty Name="IsSend" ColumnName="IsSend" />
+                <ScalarProperty Name="SendToDate" ColumnName="SendToDate" />
+                <ScalarProperty Name="CreatedDate" ColumnName="CreatedDate" />
+                <ScalarProperty Name="AutoID" ColumnName="AutoID" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+        </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="False" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="True" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

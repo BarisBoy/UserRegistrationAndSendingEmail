@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="UserRegistiration_DBModel" Alias="Self" p1:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:p1="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityContainer Name="UserRegistiration_DBEntities" p1:LazyLoadingEnabled="true">
+    <EntitySet Name="Mail" EntityType="UserRegistiration_DBModel.Mail" />
+  </EntityContainer>
+  <EntityType Name="Mail">
+    <Key>
+      <PropertyRef Name="ID" />
+    </Key>
+    <Property Name="ID" Type="Guid" Nullable="false" />
+    <Property Name="From" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="To" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="Cc" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="Subject" Type="String" MaxLength="2000" Unicode="false" FixedLength="false" />
+    <Property Name="Body" Type="String" MaxLength="Max" Unicode="false" FixedLength="false" />
+    <Property Name="IsSend" Type="Boolean" />
+    <Property Name="SendToDate" Type="DateTime" Precision="3" />
+    <Property Name="CreatedDate" Type="DateTime" Precision="3" />
+    <Property Name="AutoID" Type="Int32" Nullable="false" p1:StoreGeneratedPattern="Identity" />
+  </EntityType>
+</Schema>

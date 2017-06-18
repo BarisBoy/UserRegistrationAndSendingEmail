@@ -1,0 +1,11 @@
+C:\Users\boy94\AppData\Local\Temporary Projects\MailSender\bin\Debug\MailSender.exe.config
+C:\Users\boy94\Desktop\MailSender\MailSender\bin\Debug\MailSender.exe.config
+C:\Users\boy94\Desktop\MailSender\MailSender\bin\Debug\MailSender.exe
+C:\Users\boy94\Desktop\MailSender\MailSender\bin\Debug\MailSender.pdb
+C:\Users\boy94\Desktop\MailSender\MailSender\bin\Debug\EntityFramework.dll
+C:\Users\boy94\Desktop\MailSender\MailSender\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\boy94\Desktop\MailSender\MailSender\bin\Debug\EntityFramework.xml
+C:\Users\boy94\Desktop\MailSender\MailSender\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\boy94\Desktop\MailSender\MailSender\obj\Debug\MailSender.csprojResolveAssemblyReference.cache
+C:\Users\boy94\Desktop\MailSender\MailSender\obj\Debug\MailSender.exe
+C:\Users\boy94\Desktop\MailSender\MailSender\obj\Debug\MailSender.pdb
