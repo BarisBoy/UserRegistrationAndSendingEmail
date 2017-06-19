@@ -27,3 +27,33 @@ C:\Users\boy94\onedrive\belgeler\visual studio 2013\Projects\UserRegistrationApp
 C:\Users\boy94\onedrive\belgeler\visual studio 2013\Projects\UserRegistrationApp\UserRegistrationApp\bin\Newtonsoft.Json.xml
 C:\Users\boy94\onedrive\belgeler\visual studio 2013\Projects\UserRegistrationApp\UserRegistrationApp\obj\Debug\UserRegistrationApp.dll
 C:\Users\boy94\onedrive\belgeler\visual studio 2013\Projects\UserRegistrationApp\UserRegistrationApp\obj\Debug\UserRegistrationApp.pdb
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\UserRegistrationApp.dll.config
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\UserRegistrationApp.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\UserRegistrationApp.pdb
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\Antlr3.Runtime.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\EntityFramework.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\EntityFramework.SqlServer.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\Newtonsoft.Json.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\System.Web.Helpers.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\System.Web.Mvc.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\System.Web.Optimization.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\System.Web.Razor.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\System.Web.WebPages.Deployment.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\System.Web.WebPages.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\System.Web.WebPages.Razor.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\WebGrease.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\EntityFramework.xml
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\EntityFramework.SqlServer.xml
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\System.Web.Helpers.xml
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\System.Web.Mvc.xml
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\System.Web.Razor.xml
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\System.Web.WebPages.xml
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\System.Web.WebPages.Deployment.xml
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\System.Web.WebPages.Razor.xml
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\System.Web.Optimization.xml
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\Antlr3.Runtime.pdb
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\bin\Newtonsoft.Json.xml
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\obj\Debug\UserRegistrationApp.csprojResolveAssemblyReference.cache
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\obj\Debug\UserRegistrationApp.dll
+C:\Users\boy94\Desktop\GithubRepo\UserRegistrationAndSendingEmail\UserRegistrationApp\UserRegistrationApp\obj\Debug\UserRegistrationApp.pdb

@@ -51,7 +51,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.User.Password, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.User.Password, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.User.Password, new { htmlAttributes = new { @class = "form-control", @type = "password" } })
                 @Html.ValidationMessageFor(model => model.User.Password, "", new { @class = "text-danger" })
             </div>
         </div>
@@ -59,7 +59,7 @@
         <div class="form-group">
             @Html.LabelFor(model => model.Person.Email, htmlAttributes: new { @class = "control-label col-md-2" })
             <div class="col-md-10">
-                @Html.EditorFor(model => model.Person.Email, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.EditorFor(model => model.Person.Email, new { htmlAttributes = new { @class = "form-control", placeholder = "The email of the person you are inviting." } })
                 @Html.ValidationMessageFor(model => model.Person.Email, "", new { @class = "text-danger" })
             </div>
         </div>
